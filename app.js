@@ -15,7 +15,7 @@ btnNumber.forEach(number =>{
         if(screen.textContent == "0" || optState){
             screen.textContent = "";
         }
-
+        
         screen.textContent += this.textContent;
         optState=false;
     }
